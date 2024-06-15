@@ -1,22 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 /**    header   **/
+.brand {
+  
+  font-family: 'Merienda One', 'Brush Script MT', cursive;
+  color: rgb(255, 148, 148);
+  letter-spacing: 3px;
+  float: left;
+  font-size: 280%;
+  
+}
 
+#menu {
+  list-style-type: none;
+  letter-spacing: 3px;
+  font-size: 110%;
+}
 
-.header {
-    text-align: center;
-    font-weight: 700;
-    font-family: 'Merienda One', 'Brush Script MT', cursive;
-    color: rgb(255, 148, 148);
-    background: url("../images/bgimg.jpg") no-repeat bottom right fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        height: 450px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
+#menu li {
+  float: right;
+  margin-right: 30px;
+}
 
+#menu a {
+  color: inherit;
+}
+
+body{
+  font-family: 'Merienda One';
+  color: rgb(255, 148, 148) ;
 }
