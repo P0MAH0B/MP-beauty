@@ -7,32 +7,46 @@
 }
 
 /**    header   **/
-.brand {
+#brand {
   
   font-family: 'Merienda One', 'Brush Script MT', cursive;
   color: rgb(255, 148, 148);
   letter-spacing: 3px;
   float: left;
   font-size: 280%;
+  margin-left: 30px;
   
 }
+
 
 #menu {
   list-style-type: none;
   letter-spacing: 3px;
   font-size: 110%;
 }
+#brand, #menu {
+  line-height: 75px;
+}
 
 #menu li {
-  float: right;
+  float: right !important;
   margin-right: 30px;
 }
 
+
 #menu a {
+  text-decoration: none;
   color: inherit;
 }
 
 body{
   font-family: 'Merienda One';
   color: rgb(255, 148, 148) ;
+}
+
+#menu a:hover {
+  font-size: 115%;
+  border-bottom: 2px solid;
+  transition: all 0.3s ease;
+
 }
