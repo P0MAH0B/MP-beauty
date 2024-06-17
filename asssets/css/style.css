@@ -29,7 +29,7 @@
 }
 
 #menu li {
-  float: right !important;
+  
   margin-right: 30px;
 }
 
@@ -49,4 +49,18 @@ body{
   border-bottom: 2px solid;
   transition: all 0.3s ease;
 
+}
+.navbar-toggler {
+  border: none;
+  
+  
+}
+.navbar-toggler:focus{
+  box-shadow: none
+}
+.navbar-toggler-icon:focus{
+  color: inherit;
+}
+.bg-body-tertiary{
+  background-color: white !important
 }
