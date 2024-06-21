@@ -61,6 +61,64 @@ body{
 .navbar-toggler-icon:focus{
   color: inherit;
 }
+
 .bg-body-tertiary{
-  background-color: white !important
+  background-color: white !important;
+
+} 
+
+#main-img{
+  height: 600px;
+  width: 100%;
+  background: url(../images/bgimg.jpg) no-repeat center center;
+
+  animation-name: img-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: backwards;
+  
+
+}
+
+#main-div{
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+@keyframes img-zoom{
+  from{
+    transform: scale(1.1);
+  }
+  to{
+    transform: scale(1);
+  }
+}
+
+#slogan{
+  font-size: 130%;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+
+  width: 300px;
+  height: 200px;
+
+  padding-top: 40px;
+  padding-left: 10px;
+
+ 
+
+  bottom: 30px;
+  left: 120px;
+
+  position: absolute;
+}
+
+/** Services **/
+
+
+#services{
+  height: 600px;
+  
 }
