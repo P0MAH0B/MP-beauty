@@ -2,7 +2,9 @@ function onEntry(entry) {
     entry.forEach(change => {
       if (change.isIntersecting) {
        change.target.classList.add('element-show');
-      } 
+      } else {
+        change.target.classList.remove('element-show');
+      }
     });
   }
   
