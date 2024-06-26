@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
-<style>
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-</style>
+
 
 * {
   margin: 0;
@@ -257,11 +257,41 @@ hr{
 .accordion-button:hover {
   font-size: 60%;
 
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 
 }
 .accordion-body{
   font-family: "Roboto", sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 110%;
+}
+
+/*   Contacts   */
+
+
+
+
+#address{
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+
+#direction{
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+i {
+  font-size: 150%;
+  margin: 45px ;
+}
+
+#map{
+  height: 350px;
+  
 }

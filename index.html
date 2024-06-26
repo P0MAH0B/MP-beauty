@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="asssets/css/style.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/de43a7a9f2.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="asssets/images/favicon-32x32.png" />
     <title>Beauty & Skin Care</title>
 </head>
@@ -30,7 +31,7 @@
               <a class="nav-link" href="#questions">Questions</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#address">Contacts</a>
+              <a class="nav-link" href="#contacts">Contacts</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Booking</a>
@@ -199,18 +200,70 @@
     
    </section>
   
-   <!-- Map and address -->
+   <!-- Map and Contacts -->
 
-   <section id="address" class="container">
-    <div></div>
-    
-      <p>Address</p>
+   <section id="contacts" >
+    <div class="container text-center">
+      <div class="row col-sm">
+        <div class="col">
+          
+          <div id="address">You can find us here</div>
+          <hr>
+          
+          <div><i class="fa-solid fa-house"></i></div>
+          
+          <p></p>13 Viking Precinct, Jarrow NE32 3LF</p>
+        
+          <div><i class="fa-solid fa-phone"></i></div>
+          
+          <p>07777777777</p>
+          <br>
+          <hr>
+        </div>
+        <div class="col-sm">
+         <div id="direction">Get Direction</div>
+         <div id="map">
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.54594219874!2d-1.4910308867089876!3d54.981061451053016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487e6fc6e98982cd%3A0x207e3d027c0cac93!2s13%20Viking%20Precinct%2C%20Jarrow!5e0!3m2!1sen!2suk!4v1719405481848!5m2!1sen!2suk" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        </div>
+        </div>
+      </div>
+      
     </div>
+    
    </section>
    <!-- Footer -->
   <footer class="container">
     <p>Footer</p>
   </footer>
+
+  <script>
+    function initMap() {
+    var map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 12,
+      center: {
+        lat: 54.980087,
+        lng: -1.491798
+      }
+    });
+    var labels = "ABCDE";
+    var location = [{ lat: 54.981091, lng: -1.488221}
+    ];
+
+    var markers = location.map(function(location,i) {
+      return new google.maps.Marker({
+        position: location,
+        label: labels[i % labels.length]
+      });
+    });
+    var markerClusterer = MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+        
+  }
+  </script>
+  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRfIrp7kI7HP1jem-zlUpBZObB5hXyngw&callback=initMap"></script>
+
+
   <script src="asssets/js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </div>
