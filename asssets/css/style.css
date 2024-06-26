@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merienda+One|Open+Sans&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+</style>
 
 * {
   margin: 0;
@@ -13,7 +16,7 @@
   color: rgb(255, 148, 148);
   letter-spacing: 3px;
   float: left;
-  font-size: 280%;
+  font-size: 200%;
   margin-left: 30px;
   
 }
@@ -183,7 +186,7 @@ hr{
 .left-serv.top.element-animation.element-show{
   opacity: 1;
   transform: scale(1);
-  transition-delay: 1s;
+  transition-delay: 0.5s;
 }
 .left-serv.bottom.element-animation{
   opacity: 0;
@@ -194,7 +197,7 @@ hr{
 .left-serv.bottom.element-animation.element-show{
   opacity: 1;
   transform: scale(1);
-  transition-delay: 2s;
+  transition-delay: 1s;
 }
 
 .right-serv.top.element-animation{
@@ -205,7 +208,7 @@ hr{
 .right-serv.top.element-animation.element-show{
   opacity: 1;
   transform: scale(1);
-  transition-delay: 3s;
+  transition-delay: 1.5s;
 }
 .right-serv.bottom.element-animation{
   opacity: 0;
@@ -216,7 +219,7 @@ hr{
 .right-serv.bottom.element-animation.element-show{
   opacity: 1;
   transform: scale(1);
-  transition-delay: 4s;
+  transition-delay: 2s;
 }
 
 /*     Questions      */
@@ -233,7 +236,7 @@ hr{
 
 .accordion-button:not(.collapsed){
   background-color: rgb(255, 227, 225);
-  color: rgba(13, 110, 253, 0.25);
+  color: white;
 }
 
 
@@ -243,4 +246,22 @@ hr{
 
 .accordion-button{
   color: inherit;
+
+}
+
+.accordion {
+  --bs-accordion-border-color: white;
+  --bs-accordion-btn-focus-box-shadow: white;
+}
+
+.accordion-button:hover {
+  font-size: 60%;
+
+  transition: all 0.3s ease;
+
+}
+.accordion-body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 110%;
 }
