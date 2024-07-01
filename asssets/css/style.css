@@ -10,6 +10,18 @@
 }
 
 /**    header   **/
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+}
+
+html{
+  scroll-behavior: smooth;
+  
+}
+
 #brand {
   
   font-family: 'Merienda One', 'Brush Script MT', cursive;
