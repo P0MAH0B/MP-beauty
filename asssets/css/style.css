@@ -14,17 +14,17 @@
   
   font-family: 'Merienda One', 'Brush Script MT', cursive;
   color: rgb(255, 148, 148);
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   float: left;
-  font-size: 200%;
-  margin-left: 30px;
+  font-size: 150%;
+  margin-left: 15px;
   
 }
 
 
 #menu {
   list-style-type: none;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   font-size: 110%;
 }
 #brand, #menu {
@@ -113,7 +113,7 @@ body{
  
 
   bottom: 30px;
-  left: 120px;
+  left: 80px;
 
   position: absolute;
 }
@@ -186,7 +186,7 @@ hr{
 .left-serv.top.element-animation.element-show{
   opacity: 1;
   transform: scale(1);
-  transition-delay: 0.5s;
+  transition-delay: 0.3s;
 }
 .left-serv.bottom.element-animation{
   opacity: 0;
@@ -197,7 +197,7 @@ hr{
 .left-serv.bottom.element-animation.element-show{
   opacity: 1;
   transform: scale(1);
-  transition-delay: 1s;
+  transition-delay: 0.6s;
 }
 
 .right-serv.top.element-animation{
@@ -208,7 +208,7 @@ hr{
 .right-serv.top.element-animation.element-show{
   opacity: 1;
   transform: scale(1);
-  transition-delay: 1.5s;
+  transition-delay: 0.9s;
 }
 .right-serv.bottom.element-animation{
   opacity: 0;
@@ -219,7 +219,7 @@ hr{
 .right-serv.bottom.element-animation.element-show{
   opacity: 1;
   transform: scale(1);
-  transition-delay: 2s;
+  transition-delay: 1.2s;
 }
 
 /*     Questions      */
