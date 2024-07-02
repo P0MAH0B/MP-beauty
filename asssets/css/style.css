@@ -278,6 +278,42 @@ hr{
   font-size: 110%;
 }
 
+
+/*    Booking     */
+
+.btn-primary{
+  --bs-btn-bg: rgb(255, 148, 148);
+  --bs-btn-border-color: rgb(255, 148, 148);
+  --bs-btn-hover-bg:rgb(255, 209, 209);
+  --bs-btn-hover-border-color: rgb(255, 209, 209);
+  --bs-btn-active-bg: rgb(255, 245, 228);
+    --bs-btn-active-border-color:rgb(255, 245, 228);
+}
+.bt-width{
+ height:90px;
+margin:30px 30px ;
+}
+  
+
+#form_bg{
+  margin-top: 30px;
+  height: 600px;
+  width: 100%;
+  background: url(../images/bookingbg.jpg) no-repeat center center;
+
+  /*filter: brightness(50%); */
+
+
+}
+
+form{
+  max-width: 1900px;
+  
+}
+
+
+
+
 /*   Contacts   */
 
 
