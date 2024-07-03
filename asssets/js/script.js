@@ -1,5 +1,9 @@
 
-
+$(document).ready(function(){
+  $("#booking_btn").on("click", function(){
+    $("#form_bg").removeClass('hidden');
+  });
+});
 
 /** Animation  */
 function onEntry(entry) {
