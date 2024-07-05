@@ -291,7 +291,7 @@ hr{
 }
 .bt-width{
  height:90px;
-margin:30px 30px ;
+ margin:30px 30px ;
 }
   
 
@@ -309,13 +309,14 @@ margin:30px 30px ;
 form{
   max-width: 1900px;
   position: absolute;
-   margin-left: 50px !important;
+  margin-left: 50px !important;
   margin-right: 30px !important;
   top: 15%;
   
 }
-.hidden{
-  opacity: 0;
+#booking_btn{
+  font-size: 150%;
+  letter-spacing: 2px;
 }
 
 

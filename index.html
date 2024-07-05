@@ -8,6 +8,16 @@
     <script src="https://kit.fontawesome.com/de43a7a9f2.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="asssets/images/favicon-32x32.png" />
     <title>Beauty & Skin Care</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function() {
+          emailjs.init("ItNdUF6WfjaBa3Muq");
+          emailjs.send("beauty","template_beauty");
+      })();
+  </script>
+    
 </head>
 <body>
   <div class="container"></div>
@@ -207,11 +217,11 @@
    
 
     <div class="d-grid gap-2">
-      <button id="booking_btn" class="btn btn-primary bt-width" type="button">For Booking Your Consultation Click Here  </button>
+      <button id="booking_btn" class="btn btn-primary bt-width" type="button">For Booking  - Fill The Form Below  </button>
       
     </div>
       
-      <div id="form_bg" class="hidden">
+      <div id="form_bg" class="">
         <form class="row g-3">
           <div class="col-md-4">
             <label for="inputName" class="form-label">Name</label>
@@ -246,7 +256,7 @@
           
       
           <div class="col-12">
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="submit" class="btn btn-primary">Book it</button>
           </div>
         </form>
 
