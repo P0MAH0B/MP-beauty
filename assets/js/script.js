@@ -10,9 +10,7 @@ function onEntry(entry) {
     entry.forEach(change => {
       if (change.isIntersecting) {
        change.target.classList.add('element-show');
-      } /*else {
-        change.target.classList.remove('element-show');
-      }*/
+      } 
     });
   }
   
@@ -24,5 +22,27 @@ function onEntry(entry) {
   for (let elm of elements) {
     observer.observe(elm);
   }
+
+  /** EmailJS  */
+  
+  function sendMail(contactForm) {
+    emailjs.send("beauty","template_beauty", {
+        from_name: contactForm.inputName.value,
+        last_name: contactForm.inputLastName.value,
+        phone_number: contactForm.inputPhone.value,
+        from_email: contactForm.inputEmail.value,
+        procedure: contactForm.inputProcedure.value,
+        
+    })
+    .then(
+        function(response) {
+            console.log("SUCCES", response);
+        },
+        function(error) {
+        console.log("FAILED", error);
+        }
+    );
+        return false;
+}
 
 

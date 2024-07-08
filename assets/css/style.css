@@ -284,7 +284,7 @@ hr{
 .btn-primary{
   --bs-btn-bg: rgb(255, 148, 148);
   --bs-btn-border-color: rgb(255, 148, 148);
-  --bs-btn-hover-bg:rgb(255, 209, 209);
+  --bs-btn-hover-bg: rgb(255, 148, 148);
   --bs-btn-hover-border-color: rgb(255, 209, 209);
   --bs-btn-active-bg: rgb(255, 245, 228);
     --bs-btn-active-border-color:rgb(255, 245, 228);
