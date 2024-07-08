@@ -291,6 +291,7 @@ hr{
 }
 .bt-width{
  height:90px;
+ 
  margin:30px 30px ;
 }
   
@@ -307,7 +308,7 @@ hr{
 }
 
 form{
-  max-width: 1900px;
+  max-width: 1930px;
   position: absolute;
   margin-left: 50px !important;
   margin-right: 30px !important;
