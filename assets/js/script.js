@@ -1,9 +1,9 @@
 
-$(document).ready(function(){
+/* $(document).ready(function(){
   $("#booking_btn").on("click", function(){
     $("#form_bg").removeClass('hidden');
   });
-});
+}); */
 
 /** Animation  */
 function onEntry(entry) {
@@ -37,6 +37,7 @@ function onEntry(entry) {
     .then(
         function(response) {
             console.log("SUCCES", response);
+            document.getElementById("booking_form").innerHTML="<h2>Your Booking details were successfully sent, we will get back to you ASAP.</h2>"
         },
         function(error) {
         console.log("FAILED", error);
