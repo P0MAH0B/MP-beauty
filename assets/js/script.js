@@ -1,9 +1,5 @@
 
-/* $(document).ready(function(){
-  $("#booking_btn").on("click", function(){
-    $("#form_bg").removeClass('hidden');
-  });
-}); */
+
 
 /** Animation  */
 function onEntry(entry) {
@@ -46,4 +42,31 @@ function onEntry(entry) {
         return false;
 }
 
+/*      Map     */
 
+
+        function initMap(){
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 10,
+                center: {
+                  lat: 54.96066231417327, 
+                  lng: -1.5995372727870325 
+                }
+            });
+            var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            var locations = [
+                {lat: 54.98141245680022, lng: -1.4882379132222212},
+                {lat: 54.99133601911203, lng: -1.5350220681579623}, 
+                {lat: 54.97396288580899, lng: -1.6106936186915504},
+                {lat: 54.97504681953739, lng:-1.6905606355116636}
+            ];
+            var markers = locations.map(function(location, i){
+                return new google.maps.Marker({
+                    position: location,
+                    label: labels[i % labels.length]
+                });
+            });
+            var markerClusterer = new MarkerClusterer(map, markers,
+              {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+        }
+  
