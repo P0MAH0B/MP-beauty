@@ -12,7 +12,7 @@ This is the  project for Full Stack Software Developement course. I decided to m
 
  
 
-- [HPS - Heating \& Plumbing Solutions](#hps---heating--plumbing-solutions)
+- [BSC - Beauty & Skin Care](#bsc-beauty-&-skin-care)
   - [Introduction](#introduction)
 - [Table of Contents](#table-of-contents)
   - [User Experience (UX)](#user-experience-ux)
