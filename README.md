@@ -86,7 +86,7 @@ I used [Balsamiq](https://balsamiq.com/) to create my wireframes as this gives t
 - Interactive elements
 - For better UI we added a nav bar - for quick access to all sections.
   ![Nav Bar](/assets/images/navbarmob.png)
-- For quick free quote we added a form.
+- For quick booking we added a form.
 
 
 
@@ -151,7 +151,7 @@ IMac   | No appearance, responsiveness nor functionality issues. | Pass
 HP Laptop 15" | No appearance, responsiveness nor functionality issues. | Pass
 IPhone 15 Pro | No appearance, responsiveness nor functionality issues. | Pass
 
-- A large amount of testing was done to ensure that all pages were linking correctly, all social media links opens in a new tab and form working correctly.
+- A large amount of testing was done to ensure that everything was displayed correctly and the form working properly.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
   
 ## Finished Product
@@ -191,7 +191,7 @@ I used GitHub pages to deploy my final project. To do this I had to:
 
 ### Content
 
-- All content was written by the developer.
+- All content was written by the developer himself or following the Code Institute guide.  
 
 ### Media
 
