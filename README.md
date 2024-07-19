@@ -202,3 +202,4 @@ I used GitHub pages to deploy my final project. To do this I had to:
 - My Mentor for continuous helpful feedback.
 
 - Tutor support at Code Institute for their support.
+- My wife - for keeping me motivated.
