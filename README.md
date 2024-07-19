@@ -1,114 +1,193 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# BSC - Beauty & Skin Care
 
-Welcome Ivan Romanov,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Introduction
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 28, 2024**
+[View the live project here.](https://p0mah0b.github.io/MP-beauty/)
 
-## Gitpod Reminders
+This is the  project for Full Stack Software Developement course. I decided to make website for small business to help them  to enhance  clients' experience by offering easy access to information about  services, booking appointments, and staying updated with  latest news and promotions. This website is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential visitors and customers.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<h2 alighn="center"><image src="./images/amiresp.png"></h2>
 
-`python3 -m http.server`
+# Table of Contents
 
-A blue button should appear to click: _Make Public_,
+ 
 
-Another blue button should appear to click: _Open Browser_.
+- [HPS - Heating \& Plumbing Solutions](#hps---heating--plumbing-solutions)
+  - [Introduction](#introduction)
+- [Table of Contents](#table-of-contents)
+  - [User Experience (UX)](#user-experience-ux)
+    - [User Expectations](#user-expectations)
+  - [Structure](#structure)
+  - [Skeleton](#skeleton)
+    - [Wireframes](#wireframes)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Testing](#testing)
+    - [Manual Testing](#manual-testing)
+  - [Finished Product](#finished-product)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Code](#code)
+    - [Content](#content)
+    - [Media](#media)
+    - [Acknowledgements](#acknowledgements)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
 
-A blue button should appear to click: _Make Public_,
+## User Experience (UX)
 
-Another blue button should appear to click: _Open Browser_.
+[Go to the top](#table-of-contents)
+* First Time Visitor Goals
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+    - Clear Value Proposition: Immediately convey the salon's unique value and services.
+    - Visual Appeal: Use high-quality images of the salon, treatments, and products.
+    - Call to Action (CTA): Prominent buttons for booking appointments, learning about services, and contacting the salon.
+    - Intuitive Menu: Simple, clear menu items such as  Services, Questions, Booking,  Contact.
 
-To log into the Heroku toolbelt CLI:
+*  Returning Visitor Goals
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    - User-Friendly Interface: Simple, step-by-step process for booking appointments.
+    - Multiple Contact Options: Provide a contact form, phone number, and physical address.
+    - Map Integration: Embed a Google Map to show the salon’s location.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
 
-------
+    
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**May 28 2024:** Fix Mongo and Links installs
+##  Structure
+  [Go to the top](#table-of-contents)
 
-**April 26 2024:** Update node version to 16
+It is really important to include responsive design in this project as many users are using different devices (mobile, tablet, laptop/PC). This gives the user the best experience on their device.
 
-**September 20 2023:** Update Python version to 3.9.17.
+ - Responsive on all devices sizes
+ - Navigation bar is placed on the top left of the screen and is clear and easy to use. This is also placed in the same position on every page.
+ - All elements will be consistent including font size, font family, colour scheme.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+##  Skeleton
+  [Go to the top](#table-of-contents)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+I used [Balsamiq](https://balsamiq.com/) to create my wireframes as this gives the template of the UI. This also shows where all elements will be placed within the screen.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Wireframes
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  -  Wireframe 
+  - <image src="/images/balsamik.png">
+ 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+ 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Features
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Responsive on all device sizes
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- Interactive elements
+- For better UI we added a nav bar - for quick access to all pages.
+  <image src="/images/navbars.png">
+- For quick free quote we added a form.
+  <image src="/images/forms.png">
+- To follow the company we added a social media links we nice hoover effect.
+  <image src="/images/socoallinks.png">
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Technologies Used
+[Go to the top](#table-of-contents)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+ ### Languages Used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Frameworks, Libraries & Programs Used
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+1. [Bootstrap:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+2. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import  font into the style.css file which is used on all pages throughout the project.
+3. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+4. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
 
-------
+## Testing 
+[Go to the top](#table-of-contents)
 
-## FAQ about the uptime script
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-**Why have you added this script?**
+- [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Manual Testing
 
-**How will this affect me?**
+- Browser Compatibility
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Browser | Expectation | Pass/Fail  
+--- | --- | ---
+Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
+Safari | No appearance, responsiveness nor functionality issues. | Pass
+Mozilla Firefox | No responsiveness nor functionality issues.| Pass
+Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- Device compatibility
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Device | Expectation | Pass/Fail
+--- | --- | ---
+MacBook Pro 13" | No appearance, responsiveness nor functionality issues. | Pass
+HP Laptop 15" | No appearance, responsiveness nor functionality issues. | Pass
+iPad Pro 12.9" | No appearance, responsiveness nor functionality issues. | Pass
+iPhone 13 Pro Max | No appearance, responsiveness nor functionality issues. | Pass
 
-**So….?**
+- A large amount of testing was done to ensure that all pages were linking correctly, all social media links opens in a new tab and form working correctly.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+  
+## Finished Product
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+Page / Section | Image
+--- | ---
+Desktop Version | ![Desktop version image](/images/abouts.png)
+Services Section | ![Home section image](/images/servicess.png)
+Contacts Section | ![Feedback popup image](/images/contactss.png)  
+Mobile Version | ![Mobile version image](/images/mobabout.png)
+Services Section | ![Home section image](/images/mobserv.png)
+Contacts Section | ![Feedback popup image](/images/mobcont.png)  
 
-**Can I opt out?**
+## Deployment
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+[Go to the top](#table-of-contents)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+I used GitHub pages to deploy my final project. To do this I had to:
 
-**Anything more?**
+1. Create a repository on GitHub.
+2. Clone the repository on your chosen source code editor using the clone link.
+4. Add files to Git (staging area) and use the commit to master button.
+5. Use git  to push the code.
+7. Go to GitHub and load your repository.
+8. Select settings.
+9. Select pages on the left menu bar.
+10. Click on the master branch.
+11. This will now generate a link with your websiPlease find screnn 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Credits
+[Go to the top](#table-of-contents)
 
----
+### Code
 
-Happy coding!
+- [Bootstrap5](https://getbootstrap.com/docs/5.0/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+- [W3_Schools](https://www.w3schools.com/): Got different kinds of solutions from this website throughout the project mainly in CSS styling.
+
+### Content
+
+- All content was written by the developer.
+
+### Media
+
+- All Images were taken from free source [Pexel](www.pexels.com).
+
+### Acknowledgements
+
+- My Mentor for continuous helpful feedback.
+
+- Tutor support at Code Institute for their support.
