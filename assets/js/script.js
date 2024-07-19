@@ -58,15 +58,17 @@ function onEntry(entry) {
                 {lat: 54.98141245680022, lng: -1.4882379132222212},
                 {lat: 54.99133601911203, lng: -1.5350220681579623}, 
                 {lat: 54.97396288580899, lng: -1.6106936186915504},
-                {lat: 54.97504681953739, lng:-1.6905606355116636}
+                {lat: 54.97504681953739, lng: -1.6905606355116636}
             ];
-            var markers = locations.map(function(location, i){
+            var marker = locations.map(function(location, i){
                 return new google.maps.Marker({
                     position: location,
-                    label: labels[i % labels.length]
+                    label: labels[i % labels.length],
+                    
                 });
+               
             });
-            var markerClusterer = new MarkerClusterer(map, markers,
+            var markerClusterer = new MarkerClusterer(map, marker,
               {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
         }
   
