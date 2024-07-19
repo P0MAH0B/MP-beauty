@@ -7,8 +7,7 @@
 
 This is the  project for Full Stack Software Developement course. I decided to make website for small business to help them  to enhance  clients' experience by offering easy access to information about  services, booking appointments, and staying updated with  latest news and promotions. This website is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential visitors and customers.
 
-<h2 alighn="center"><image src="./images/amiresp.png"></h2>
-
+![Website Images](/assets/images/amiresp.png)
 # Table of Contents
 
  
@@ -63,7 +62,7 @@ This is the  project for Full Stack Software Developement course. I decided to m
 It is really important to include responsive design in this project as many users are using different devices (mobile, tablet, laptop/PC). This gives the user the best experience on their device.
 
  - Responsive on all devices sizes
- - Navigation bar is placed on the top left of the screen and is clear and easy to use. This is also placed in the same position on every page.
+ - Navigation bar is placed on the top left of the screen and is clear and easy to use.  
  - All elements will be consistent including font size, font family, colour scheme.
 
 ##  Skeleton
@@ -72,10 +71,10 @@ It is really important to include responsive design in this project as many user
 I used [Balsamiq](https://balsamiq.com/) to create my wireframes as this gives the template of the UI. This also shows where all elements will be placed within the screen.
 
 
-### Wireframes
+### Wireframe
 
-  -  Wireframe 
-  - <image src="/images/balsamik.png">
+ 
+![Balsamiq frame](/assets/images/balsamiq.png)
  
 
  
@@ -83,14 +82,15 @@ I used [Balsamiq](https://balsamiq.com/) to create my wireframes as this gives t
 ## Features
 
 - Responsive on all device sizes
-
+- Simple process for booking appointments.
 - Interactive elements
-- For better UI we added a nav bar - for quick access to all pages.
-  <image src="/images/navbars.png">
+- For better UI we added a nav bar - for quick access to all sections.
+  ![Nav Bar](/assets/images/navbarmob.png)
 - For quick free quote we added a form.
-  <image src="/images/forms.png">
-- To follow the company we added a social media links we nice hoover effect.
-  <image src="/images/socoallinks.png">
+
+
+
+  ![Form](/assets/images/formscreen.png)
 
 ## Technologies Used
 [Go to the top](#table-of-contents)
@@ -99,7 +99,7 @@ I used [Balsamiq](https://balsamiq.com/) to create my wireframes as this gives t
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 ### Frameworks, Libraries & Programs Used
 
 1. [Bootstrap:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
@@ -110,14 +110,27 @@ I used [Balsamiq](https://balsamiq.com/) to create my wireframes as this gives t
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 4. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+5. [JQuery:](https://jquery.com/)
+    - Jquery is used to manipulat the HTML
+6. [Google Maps:](https://developers.google.com/maps)
+    - Google Maps are used to display different locations.
+
 
 ## Testing 
 [Go to the top](#table-of-contents)
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
-
+- [JSlint](jslint.com)
 - [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+</p>
+        
 
 ### Manual Testing
 
@@ -134,10 +147,9 @@ Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
 
 Device | Expectation | Pass/Fail
 --- | --- | ---
-MacBook Pro 13" | No appearance, responsiveness nor functionality issues. | Pass
+IMac   | No appearance, responsiveness nor functionality issues. | Pass
 HP Laptop 15" | No appearance, responsiveness nor functionality issues. | Pass
-iPad Pro 12.9" | No appearance, responsiveness nor functionality issues. | Pass
-iPhone 13 Pro Max | No appearance, responsiveness nor functionality issues. | Pass
+IPhone 15 Pro | No appearance, responsiveness nor functionality issues. | Pass
 
 - A large amount of testing was done to ensure that all pages were linking correctly, all social media links opens in a new tab and form working correctly.
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
@@ -146,12 +158,10 @@ iPhone 13 Pro Max | No appearance, responsiveness nor functionality issues. | Pa
 
 Page / Section | Image
 --- | ---
-Desktop Version | ![Desktop version image](/images/abouts.png)
-Services Section | ![Home section image](/images/servicess.png)
-Contacts Section | ![Feedback popup image](/images/contactss.png)  
-Mobile Version | ![Mobile version image](/images/mobabout.png)
-Services Section | ![Home section image](/images/mobserv.png)
-Contacts Section | ![Feedback popup image](/images/mobcont.png)  
+Desktop Version | ![Desktop version image](/assets/images/lgscreen.png)
+Mobile Version | ![Mobile version image](/assets/images/mobscreen.png)
+Form Section | ![Form section image](/assets/images/formsection.png)
+Contacts Section | ![Contacts section image](/assets/images/contactssection.png)  
 
 ## Deployment
 
