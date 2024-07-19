@@ -161,6 +161,7 @@ Page / Section | Image
 Desktop Version | ![Desktop version image](/assets/images/lgscreen.png)
 Mobile Version | ![Mobile version image](/assets/images/mobscreen.png)
 Form Section | ![Form section image](/assets/images/formsection.png)
+Form Submitted | ![Form submitted image](/assets/images/formsubmited.png)
 Contacts Section | ![Contacts section image](/assets/images/contactssection.png)  
 
 ## Deployment
